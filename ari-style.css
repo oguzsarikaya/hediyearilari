@@ -1,0 +1,12 @@
+#ari {
+  width: 100px;
+  height: 100px;
+  background: url(https://static.ticimax.cloud/62286//uploads/editoruploads/ari-logo2.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 3s;
+  z-index: 9999;
+  transform: scale(1);
+  animation: ucmak 10s infinite;
+}
