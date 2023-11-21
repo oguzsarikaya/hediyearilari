@@ -1,4 +1,3 @@
-// cursor-changer.js içeriği
 document.addEventListener('DOMContentLoaded', function() {
   document.body.style.cursor = 'url("https://static.ticimax.cloud/62286//uploads/editoruploads/mause-cursor-32.png"), auto';
   var clickableItems = document.querySelectorAll('a, button, input[type="submit"], input[type="button"]');
