@@ -1,0 +1,48 @@
+<script>
+  //Lütfen silmeyiniz. Bu sitewnizin font scriptidir.- Ticimax Uzmanı Oğuz Sarıkaya
+function fncFontInit() {
+    WebFontConfig = {
+        google: {
+          families: ['Montserrat:wght@400,500,600,700']
+        } 
+    };
+    (function (d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+}
+fncOptimizeScript(function () { fncFontInit() });
+</script>
+
+<style>
+  //Menu Ayarı-Ticimax Uzmanı Oğuz Sarıkaya
+  @media screen and (min-width:1042px) {
+  .MobilMenuAc .mobilMenuAcButton {margin-top: 20px;}
+  }i.fab.fa-tiktok.icon:before {
+    content: "\e07b";
+    font-family: 'FontAwesomeBrands';
+}
+  </style>
+
+<style>
+.blogCenter {
+    margin-bottom: 5%;
+}
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.style.cursor = 'url("https://static.ticimax.cloud/62286//uploads/editoruploads/mause-cursor-32.png"), auto';
+    var clickableItems = document.querySelectorAll('a, button, input[type="submit"], input[type="button"]');
+    clickableItems.forEach(function(item) {
+      item.addEventListener('mouseover', function() {
+        item.style.cursor = 'url("https://static.ticimax.cloud/62286//uploads/editoruploads/mause-cursor-50-180.png"), auto';
+      });
+
+      item.addEventListener('mouseout', function() {
+        item.style.cursor = 'url("https://static.ticimax.cloud/62286//uploads/editoruploads/mause-cursor-32.png"), auto';
+      });
+    });
+  });
+</script>
